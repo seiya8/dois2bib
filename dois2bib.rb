@@ -18,8 +18,9 @@ get '/' do
 end
 
 post '/' do
+  @url = params[:url]
   bib_arr = []
-  params[:url].split(/\r\n/).each do |url|
+  @url.split(/\r\n/).each do |url|
     bib = url2bib(url)
     bib_arr.push(bib)
   end

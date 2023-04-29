@@ -77,10 +77,10 @@
           <label for="url-textarea" class="form-label">URL:</label>
           <div class="row">
               <div class="col-8">
-                <% unless @urls %>
+                <% unless @url %>
                 <textarea name="url" class="form-control lined" id="url-textarea" rows=10 placeholder="https://doi.org/10.1103/PhysRevLett.116.061102"></textarea>
                 <% else %>
-                <textarea name="url" class="form-control lined" id="url-textarea" rows=10><%= @urls %></textarea>
+                <textarea name="url" class="form-control lined" id="url-textarea" rows=10><%= @url %></textarea>
                 <% end %>
               </div>
               <div class="col-4">
