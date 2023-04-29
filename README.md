@@ -4,7 +4,7 @@
 
 ## インストール
 ```
-git clone https://seiya8/dois2bib.git && cd dois2bib
+git clone https://github.com/seiya8/dois2bib.git && cd dois2bib
 bundle install --path .bundle
 ```
 
