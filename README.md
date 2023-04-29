@@ -1,5 +1,6 @@
 # dois2bib
 複数の論文URL(https://doi.org/DOIコード) からBiBTeXを出力します。
+![image](./dois2bib.png)
 
 ## インストール
 ```
